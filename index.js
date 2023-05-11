@@ -14,6 +14,22 @@ fetch("http://localhost:3000/colors")
         });
     });
 
+    const canvas = document.getElementById("canvas");
+    canvas.width = window.innerWidth - 60;
+    canvas.height = 500; 
+
+    let context = canvas.getContext("2d");
+    context.fillStyle = "white";
+    context.fillRect(0, 0, canvas.width, canvas.height);
+
+    let draw_color = "black";
+    let draw_width = "2";
+    let is_drawing = false;
+
+
+    
+
+
 
 
 

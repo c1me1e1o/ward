@@ -1,36 +1,106 @@
-.red {
+
+
+
+.tools .red {
     width: 100px;
     height: 100px;
-    margin-bottom: 5px;
+    min-height: 100px;
+    min-width: 100px;
     background-color: red;
+    cursor: pointer;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 10%;
+    border: 2px solid white;
+    align-self: center;
   }
-  .yellow {
+  .tools .yellow {
     width: 100px;
     height: 100px;
-    margin-bottom: 5px;    
+    min-height: 100px;
+    min-width: 100px;
     background-color: yellow;
+    cursor: pointer;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 10%;
+    border: 2px solid white;
+    align-self: center;
   }
-  .blue {
+  .tools .blue {
     width: 100px;
     height: 100px;
-    margin-bottom: 5px;
+    min-height: 100px;
+    min-width: 100px;
     background-color: blue;
+    cursor: pointer;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 10%;
+    border: 2px solid white;
+    align-self: center;
   }
-  .orange {
+  .tools .orange {
     width: 100px;
     height: 100px;
-    margin-bottom: 5px;
+    min-height: 100px;
+    min-width: 100px;
     background-color: orange;
+    cursor: pointer;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 10%;
+    border: 2px solid white;
+    align-self: center;
   }
-  .green {
+  .tools .green {
     width: 100px;
     height: 100px;
-    margin-bottom: 5px;
+    min-height: 100px;
+    min-width: 100px;
     background-color: green;
+    cursor: pointer;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 10%;
+    border: 2px solid white;
+    align-self: center;
   }
-  .violet {
+  .tools .violet {
     width: 100px;
     height: 100px;
-    margin-bottom: 5px;
+    min-height: 100px;
+    min-width: 100px;
     background-color: violet;
+    cursor: pointer;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 10%;
+    border: 2px solid white;
+    align-self: center;
   }
+
+  .tools {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 15px;
+  }
+
+  .tools .button {
+    align-self: center;
+    width:100px;
+    height:100px;
+    border-radius: 10%;
+    border: 2px solid white;
+    cursor: pointer;
+    color: white;
+    background: #222;
+    font-weight: bold;
+  }
+
+canvas {
+    box-shadow:  -3px 2px  9px 6px black;   
+    cursor: pointer; 
+    border-radius: 10px;
+}
