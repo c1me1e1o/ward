@@ -1,39 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Mukta')
-
-:root{}
-
-body {
-    margin: 0px;
-    padding: 30px;
-    font-family: "Mukta";
-    overflow: hidden;
-    background: #313131;
-}
-
-
-canvas {
-    box-shadow: -3px 2px 9px 6px bllack;
-    cursor: pointer;
-}
-
-
-.tools {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    margin-top: 15px;
-}
-
-
-.tools .color-field {
-    height: 40px;
-    width: 40px;
-    min-height: 40px;
-    min-width: 40px;
-    cursor: pointer;
-    display: inline-block;
-    cursor: pointer;
-    box-sizing: border-box;
-    border-radius: 50px;
-    border: 2px solid white;
-}
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+  }
+  
