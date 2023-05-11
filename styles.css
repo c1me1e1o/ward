@@ -1,6 +1,3 @@
-
-
-
 .tools .red {
     width: 100px;
     height: 100px;
@@ -13,8 +10,9 @@
     border-radius: 10%;
     border: 2px solid white;
     align-self: center;
-  }
-  .tools .yellow {
+}
+
+.tools .yellow {
     width: 100px;
     height: 100px;
     min-height: 100px;
@@ -26,8 +24,9 @@
     border-radius: 10%;
     border: 2px solid white;
     align-self: center;
-  }
-  .tools .blue {
+}
+
+.tools .blue {
     width: 100px;
     height: 100px;
     min-height: 100px;
@@ -39,8 +38,9 @@
     border-radius: 10%;
     border: 2px solid white;
     align-self: center;
-  }
-  .tools .orange {
+}
+
+.tools .orange {
     width: 100px;
     height: 100px;
     min-height: 100px;
@@ -52,8 +52,9 @@
     border-radius: 10%;
     border: 2px solid white;
     align-self: center;
-  }
-  .tools .green {
+}
+
+.tools .green {
     width: 100px;
     height: 100px;
     min-height: 100px;
@@ -65,8 +66,9 @@
     border-radius: 10%;
     border: 2px solid white;
     align-self: center;
-  }
-  .tools .violet {
+}
+
+.tools .violet {
     width: 100px;
     height: 100px;
     min-height: 100px;
@@ -78,29 +80,35 @@
     border-radius: 10%;
     border: 2px solid white;
     align-self: center;
-  }
+}
 
-  .tools {
+.tools {
     display: flex;
     justify-content: center;
     flex-direction: row;
     margin-top: 15px;
-  }
+}
 
-  .tools .button {
+.tools .button {
     align-self: center;
-    width:100px;
-    height:100px;
+    width: 100px;
+    height: 100px;
     border-radius: 10%;
     border: 2px solid white;
     cursor: pointer;
     color: white;
-    background: #222;
+    background: #757575;
     font-weight: bold;
-  }
+}
 
 canvas {
-    box-shadow:  -3px 2px  9px 6px black;   
-    cursor: pointer; 
+    box-shadow: -3px 2px 9px 6px black;
+    cursor: pointer;
     border-radius: 10px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
