@@ -1,5 +1,3 @@
-
-
 fetch("http://localhost:3000/colors")
     .then(response => response.json())
     .then((colors) => {
@@ -11,7 +9,7 @@ fetch("http://localhost:3000/colors")
             //create a list item to hold the name and description
             //append elements to list item
             //append list item to container
-            
+             
 
         });
     });
