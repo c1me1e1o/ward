@@ -71,4 +71,6 @@ fetch("http://localhost:3000/colors")
         event.preventDefault();
     }
 
-   
+   function change_color(element) {
+        draw_color = element.style.background;
+   }
