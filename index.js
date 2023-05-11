@@ -19,8 +19,10 @@ fetch("http://localhost:3000/colors")
     canvas.height = 500; 
 
     let context = canvas.getContext("2d");
+    let start_background_color = "white";
     context.fillStyle = "white";
     context.fillRect(0, 0, canvas.width, canvas.height);
+
 
     let draw_color = "black";
     let draw_width = "2";
@@ -73,4 +75,11 @@ fetch("http://localhost:3000/colors")
 
    function change_color(element) {
         draw_color = element.style.background;
+   } 
+
+   function clear_canvas() {
+    context.fillStyle = start_background_color;
+    context.clearRect(0, 0, canvas.width, canvas.height);
+    context.fillRect(0, 0, canvas.width, canvas.heigh) ;
+
    }
