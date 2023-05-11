@@ -1,2 +1,2 @@
 # ward
-drawing app
+A simple drawing app using HTML and Javascript.
