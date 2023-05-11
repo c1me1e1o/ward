@@ -28,7 +28,10 @@ fetch("http://localhost:3000/colors")
     let draw_width = "2";
     let is_drawing = false;
 
-    canvas.addEventListener("touchstart", start, false);
+    let restore_array = [];
+    let index = -1;   
+     
+     canvas.addEventListener("touchstart", start, false);
     canvas.addEventListener("touchmove", draw, false);
     canvas.addEventListener("mousedown", start, false);
     canvas.addEventListener("mousemove", draw, false);
@@ -67,19 +70,28 @@ fetch("http://localhost:3000/colors")
         if (is_drawing ) {
             context.stroke();
             context.closePath();
-            is_drawing = false; 
-            
+            is_drawing = false;             
         }
         event.preventDefault();
+
+
+        if (event.type != 'mouseout ') {
+            restore_array.push(context.getImageData(0, 0, canvas.width, canvas.height));
+            index += 1;
+        }
+     
     }
 
    function change_color(element) {
         draw_color = element.style.background;
    } 
 
-   function clear_canvas() {
+   function clear_canvas() {  
     context.fillStyle = start_background_color;
     context.clearRect(0, 0, canvas.width, canvas.height);
-    context.fillRect(0, 0, canvas.width, canvas.heigh) ;
+    context.fillRect(0, 0, canvas.width, canvas.height) ;
+   }
+
+   function undo_last(){
 
    }
