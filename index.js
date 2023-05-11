@@ -1,4 +1,8 @@
-console.log("index js works")
+
+
+fetch("http://localhost:3000/colors")
+    .then(response => response.json())
+    .then(json => console.log(json))
 
 // const colors = {
 //     "colors": 
