@@ -80,7 +80,7 @@ fetch("http://localhost:3000/colors")
             index += 1;
         }
      
-    }
+     }
 
    function change_color(element) {
         draw_color = element.style.background;
@@ -90,8 +90,18 @@ fetch("http://localhost:3000/colors")
     context.fillStyle = start_background_color;
     context.clearRect(0, 0, canvas.width, canvas.height);
     context.fillRect(0, 0, canvas.width, canvas.height) ;
+
+    restore_array = [];
+    index = -1;
    }
 
    function undo_last(){
 
+    if ( index <= 0 ) {
+        clear_canvas();
+    } else {
+        index -= 1;
+        restore_array.pop();
+        context.putImageData(restore_array[index], 0, 0);
+    }
    }
