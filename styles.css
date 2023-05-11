@@ -1,6 +1,36 @@
-.square {
+.red {
     width: 100px;
     height: 100px;
+    margin-bottom: 5px;
     background-color: red;
   }
-  
+  .yellow {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 5px;    
+    background-color: yellow;
+  }
+  .blue {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 5px;
+    background-color: blue;
+  }
+  .orange {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 5px;
+    background-color: orange;
+  }
+  .green {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 5px;
+    background-color: green;
+  }
+  .violet {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 5px;
+    background-color: violet;
+  }
