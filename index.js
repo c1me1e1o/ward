@@ -18,7 +18,7 @@ fetch("http://localhost:3000/colors")
     canvas.width = window.innerWidth - 60;
     canvas.height = 500; 
 
-    let context = canvas.getContext("2d");
+    let context = canvas.getContext("2d",  { willReadFrequently: true });
     let start_background_color = "white";
     context.fillStyle = "white";
     context.fillRect(0, 0, canvas.width, canvas.height);
