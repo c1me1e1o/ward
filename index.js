@@ -1,18 +1,19 @@
+document.addEventListener("DOMContentLoaded", function () {
+});
+
+
+
 fetch("http://localhost:3000/colors")
     .then(res => res.json())
-    .then(renderColors);
-
-
+    .then(renderColors); 
 
 function renderColors(colors) {
     colors.forEach(renderColor)
-
 }
 
 function renderColor(color) {
-
-
 }
+
 
 
 const canvas = document.getElementById("canvas");
