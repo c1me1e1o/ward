@@ -10,8 +10,9 @@
 </head>
 <body>
    
+    
   <div class="field"> 
-    <h1>WARD</h1>
+    <div class="title"><h1>WARD</h1></div>
     <canvas id="canvas"></canvas>
    
 
@@ -21,12 +22,12 @@
         <button onClick="clear_canvas()" type="button" class="button">clear</button> 
      
 
-                <div onClick="change_color(this)" class="red" style="background: red;"></div>
-                <div onClick="change_color(this)" class="yellow" style="background: yellow;"></div>
-                <div onClick="change_color(this)" class="blue" style="background: blue;"></div>
-                <div onClick="change_color(this)" class="orange" style="background: orange;"></div>
-                <div onClick="change_color(this)" class="green" style="background: green;"></div>
-                <div onClick="change_color(this)" class="violet" style="background: violet;"></div>
+                <div onClick="change_color(this)" id="red-color" class="red" style="background: red;"></div>
+                <div onClick="change_color(this)" id="yellow-color" class="yellow" style="background: yellow;"></div>
+                <div onClick="change_color(this)" id="blue-color" class="blue" style="background: blue;"></div>
+                <div onClick="change_color(this)" id="orange-color" class="orange" style="background: orange;"></div>
+                <div onClick="change_color(this)" id="green-color" class="green" style="background: green;"></div>
+                <div onClick="change_color(this)" id="violet-color" class="violet" style="background: violet;"></div>
                 
 
                 <input onInput="draw_color = this.value" type="color" class="color-picker">
