@@ -15,7 +15,7 @@ function renderColor(color) {
 }
 
 const canvas = document.getElementById("canvas");
-canvas.width = window.innerWidth - 100;
+canvas.width = window.innerWidth - 60;
 canvas.height = 700;
 
 let context = canvas.getContext("2d", { willReadFrequently: true });
