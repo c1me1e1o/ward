@@ -14,6 +14,7 @@ function renderColor(color) {
 
 }
 
+
 const canvas = document.getElementById("canvas");
 canvas.width = window.innerWidth - 60;
 canvas.height = 700;
@@ -107,37 +108,3 @@ function undo_last() {
     }
 }
 
-
-// const canvas2 = document.getElementById('canvas2');
-// canvas2.width = 90;
-// canvas2.height = 90;
-// const ctx = canvas2.getContext('2d', { willReadFrequently: true });
-// const gradient = ctx.createLinearGradient(0, 0, canvas2.width, 0);
-// gradient.addColorStop(0, 'red');
-// gradient.addColorStop(0.2, 'orange');
-// gradient.addColorStop(0.4, 'yellow');
-// gradient.addColorStop(0.6, 'green');
-// gradient.addColorStop(0.8, 'blue');
-// gradient.addColorStop(1, 'purple');
-// ctx.fillStyle = gradient;
-// ctx.fillRect(0, 0, canvas2.width, canvas.height);
-
-// canvas2.addEventListener('click', function(event) {
-//   const x = event.pageX - canvas.offsetLeft;
-//   const y = event.pageY - canvas.offsetTop;
-//   const imageData = ctx.getImageData(x, y, 1, 1);
-//   const color = `rgb(${imageData.data[0]}, ${imageData.data[1]}, ${imageData.data[2]})`;
-//   console.log(color);
-// });
-
-// let selectedColor = { r: 255, g: 0, b: 0 }; // initial color is red
-
-// canvas2.addEventListener('click', function(event) {
-//   const x = event.pageX - canvas2.offsetLeft;
-//   const y = event.pageY - canvas2.offsetTop;
-//   const imageData = ctx.getImageData(x, y, 1, 1);
-//   selectedColor.r = imageData.data[0];
-//   selectedColor.g = imageData.data[1];
-//   selectedColor.b = imageData.data[2];
-//   console.log(selectedColor);
-// });
