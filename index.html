@@ -1,44 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <script type="text/javascript" src="index.js" defer></script>
-    <title>ward</title>
+    <title>!ward</title>
 </head>
+
 <body>
-   
-    
-  <div class="field"> 
-    <div class="title"><h1>WARD</h1></div>
-    <canvas id="canvas"></canvas>
-   
 
-    <div class="tools"> 
 
-        <button onClick="undo_last()" type="button" class="button">undo</button>
-        <button onClick="clear_canvas()" type="button" class="button">clear</button> 
-     
+    <div class="field">
+        <div class="title">
+            <h1>!WARD</h1>
+        </div>
+        <canvas id="canvas"></canvas>
 
-                <div onClick="change_color(this)" id="red-color" class="red" style="background: red;"></div>
-                <div onClick="change_color(this)" id="yellow-color" class="yellow" style="background: yellow;"></div>
-                <div onClick="change_color(this)" id="blue-color" class="blue" style="background: blue;"></div>
-                <div onClick="change_color(this)" id="orange-color" class="orange" style="background: orange;"></div>
-                <div onClick="change_color(this)" id="green-color" class="green" style="background: green;"></div>
-                <div onClick="change_color(this)" id="violet-color" class="violet" style="background: violet;"></div>
-                
 
-                <input onInput="draw_color = this.value" type="color" class="color-picker">
-                <input onInput="draw_width = this.value" type="range" min="1" max="100" class="pen-range">
+        <div class="tools">
 
-                
-     
- 
+            <button onClick="undo_last()" type="button" class="button">undo</button>
+            <button onClick="clear_canvas()" type="button" class="button">clear</button>
 
-    </div> 
-</div>
+
+            <div onClick="change_color(this)" id="red-color" class="red" style="background: red;"></div>
+            <div onClick="change_color(this)" id="yellow-color" class="yellow" style="background: yellow;"></div>
+            <div onClick="change_color(this)" id="blue-color" class="blue" style="background: blue;"></div>
+            <div onClick="change_color(this)" id="orange-color" class="orange" style="background: orange;"></div>
+            <div onClick="change_color(this)" id="green-color" class="green" style="background: green;"></div>
+            <div onClick="change_color(this)" id="violet-color" class="violet" style="background: violet;"></div>
+
+
+            <input onInput="draw_color = this.value" type="color" class="color-picker">
+            <input onInput="draw_width = this.value" type="range" min="1" max="100" class="pen-range">
+
+
+
+
+
+        </div>
+    </div>
 
 </body>
+
 </html>

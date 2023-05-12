@@ -1,47 +1,40 @@
 {
     "colors": [
-      {
-        "id": 1,
-        "name": "red",
-        "hue": "0",
-        "group": "primary"
-        
-      },
-      {
-        "id": 2,
-        "name": "yellow",
-        "hue": "60",
-        "group": "primary"
-      },
-      {
-        "id": 3,
-        "name": "blue",
-        "hue": "240",
-        "group": "primary"
-      },
-      {
-        "id": 4,
-        "name": "orange",
-        "hue": "30",
-        "group": "secondary"
-      },
-      {
-        "id": 5,
-        "name": "green",
-        "hue": "81-140",
-        "group": "secondary"
-      },
-      {
-        "id": 6,
-        "name": "violet",
-        "hue": "270",
-        "group": "secondary"
-        
+        {
+            "id": 1,
+            "name": "red",
+            "hue": "0",
+            "group": "primary"
+        },
+        {
+            "id": 2,
+            "name": "yellow",
+            "hue": "60",
+            "group": "primary"
+        },
+        {
+            "id": 3,
+            "name": "blue",
+            "hue": "240",
+            "group": "primary"
+        },
+        {
+            "id": 4,
+            "name": "orange",
+            "hue": "30",
+            "group": "secondary"
+        },
+        {
+            "id": 5,
+            "name": "green",
+            "hue": "81-140",
+            "group": "secondary"
+        },
+        {
+            "id": 6,
+            "name": "violet",
+            "hue": "270",
+            "group": "secondary"
         }
-        
-]
+    ]
 }
-    
-      
-  
-  
